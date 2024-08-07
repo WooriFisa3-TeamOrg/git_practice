@@ -1,6 +1,5 @@
 package com.example.git_practice.controller;
 
-
 import org.springframework.web.bind.annotation.DeleteMapping;
 
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,7 +12,6 @@ public class HelloController {
         return "Hello";
     }
 
-
     public String test(){
         return "<h1>Test<h1>";
     }
@@ -21,12 +19,6 @@ public class HelloController {
     @GetMapping("/helloworld-ajh")
     public String helloWorld() {
         return "Hello World";
-    }
-
-
-    @GetMapping("/jjeong")
-    public String jjeongWorld() {
-        return "jjeong World";
     }
 
     @GetMapping("/jjeong")
