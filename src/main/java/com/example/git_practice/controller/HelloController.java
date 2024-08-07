@@ -30,4 +30,8 @@ public class HelloController {
     public String delete() {
         return "Delete";
     }
+
+    public void addMethod() {
+        System.out.println("0807");
+    }
 }
