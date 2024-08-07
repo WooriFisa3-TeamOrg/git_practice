@@ -35,8 +35,5 @@ public class HelloController {
         return "Delete";
     }
 
-    @PutMapping("test/{id}")
-    public String test(@PathVariable int id) {
-        return Integer.toString(id);
-    }
+
 }
