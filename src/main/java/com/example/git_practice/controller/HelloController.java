@@ -8,4 +8,9 @@ public class HelloController {
     public String getData() {
         return "Hello";
     }
+
+    @GetMapping("/helloworld-ajh")
+    public String helloWorld() {
+        return "Hello World";
+    }
 }
