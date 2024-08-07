@@ -25,4 +25,11 @@ public class HelloController {
     public String jjeongWorld() {
         return "jjeong World";
     }
+
+    @GetMapping("/abc")
+    public String abc() {
+        return "abc git test";
+    }
+
+
 }
