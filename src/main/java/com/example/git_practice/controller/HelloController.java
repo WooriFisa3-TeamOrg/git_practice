@@ -1,9 +1,7 @@
 package com.example.git_practice.controller;
 
 
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 
 @RestController
@@ -40,6 +38,11 @@ public class HelloController {
     @DeleteMapping("/delete")
     public String delete() {
         return "Delete";
+    }
+
+    @PutMapping("test/{id}")
+    public String test(@PathVariable int id) {
+        return Integer.toString(id);
     }
 
 }
