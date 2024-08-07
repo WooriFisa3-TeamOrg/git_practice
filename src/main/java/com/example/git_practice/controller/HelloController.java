@@ -13,4 +13,8 @@ public class HelloController {
     public String helloWorld() {
         return "Hello World";
     }
+
+    public String test() {
+        return "<h1>Test<h1>";
+    }
 }
