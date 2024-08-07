@@ -20,6 +20,9 @@ public class HelloController {
 
     }
 
-
+    @GetMapping("/jjeong")
+    public String jjeongWorld() {
+        return "jjeong World";
+    }
 
 }
