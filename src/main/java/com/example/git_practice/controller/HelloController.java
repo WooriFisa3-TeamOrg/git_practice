@@ -19,7 +19,6 @@ public class HelloController {
         return "Hello World";
 
     }
-
     @GetMapping("/jjeong")
     public String jjeongWorld() {
         return "jjeong World";
@@ -30,4 +29,6 @@ public class HelloController {
     public String abc() {
         return "abc git test";
     }
+
+
 }
