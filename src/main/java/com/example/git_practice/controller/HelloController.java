@@ -9,7 +9,12 @@ public class HelloController {
         return "Hello";
     }
 
-    public String test(){
+    @GetMapping("/helloworld-ajh")
+    public String helloWorld() {
+        return "Hello World";
+    }
+
+    public String test() {
         return "<h1>Test<h1>";
     }
 }
