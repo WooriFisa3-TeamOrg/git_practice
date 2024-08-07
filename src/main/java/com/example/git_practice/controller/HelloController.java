@@ -8,4 +8,8 @@ public class HelloController {
     public String getData() {
         return "Hello";
     }
+
+    public String test(){
+        return "<h1>Test<h1>";
+    }
 }
